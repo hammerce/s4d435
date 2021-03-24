@@ -1,0 +1,7 @@
+@EndUserText.label: 'Access Consumption View'
+@MappingRole: true
+define role Z543513_C_TRAVELTP {
+    grant select on Z543513_C_TRAVELTP
+       where inheriting conditions from entity Z543513I_TRAVELTP;
+                        
+}

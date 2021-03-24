@@ -1,0 +1,7 @@
+@EndUserText.label: 'Access Transactional View'
+@MappingRole: true
+define role Z543513I_TRAVELTP {
+    grant select on Z543513I_TRAVELTP
+      where inheriting conditions from entity Z543513I_TRAVEL;
+                        
+}
